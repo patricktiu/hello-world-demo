@@ -1,0 +1,20 @@
+---
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: sample-repo
+spec:
+  type: git
+  params:
+    - name: url
+      value: https://github.com/patricktiu/hello-world-demo
+---
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: sample-image
+spec:
+  type: image
+  params:
+    - name: url
+      value: image-registry.openshift-image-registry.svc:5000/hello-world-pipeline/sample:latest
