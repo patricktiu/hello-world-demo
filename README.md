@@ -58,3 +58,6 @@ Dockerfile adds three things to build application image
 
 10. Congratulations! You've successfully deployed your tWAS application to OCP 4.x.
 
+## Reference 
+This project is based on Glenn Marcy's tWAS container pipeline tekton-testing project.
+https://github.com/gmarcy/ci.docker.websphere-traditional/tree/tekton-testing/
