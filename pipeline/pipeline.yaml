@@ -24,8 +24,6 @@ spec:
       params:
         - name: DOCKERFILE
           value: "Dockerfile"
-        - name: CONTEXT
-          value: "."
         - name: TLSVERIFY
           value: "false"
 
