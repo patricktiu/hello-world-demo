@@ -17,4 +17,4 @@ spec:
   type: image
   params:
     - name: url
-      value: image-registry.openshift-image-registry.svc:5000/hello-world-pipeline/sample:latest
+      value: image-registry.openshift-image-registry.svc:5000/hello-world-demo/sample:latest
