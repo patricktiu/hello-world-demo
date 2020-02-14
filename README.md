@@ -3,7 +3,7 @@
 A simple `Hello World` application that demonstrate a basic pattern for deploying an application into Red Hat OpenShift with IBM Cloud Pack for Application 4.0.1
 
 *Note:*
-*For IBM CLoud Pack for Application 4.0.0, we need to update the openship-pipeline-operator to v0.8.0*
+*For IBM CLoud Pack for Application 4.0.0, we need to update the openship-pipeline-operator to latest community version (0.8.2)*
 
 ## Project structure
 ```
