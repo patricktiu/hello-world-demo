@@ -61,3 +61,8 @@ Dockerfile adds three things to build application image
 ## Reference 
 This project is based on Glenn Marcy's tWAS container pipeline tekton-testing project.
 https://github.com/gmarcy/ci.docker.websphere-traditional/tree/tekton-testing/
+
+## Miscellaneous 
+- tWAS operator is not available today
+- There is no Appsody stack for WebSphere traditional
+- There is no Kabanero collection for WebSphere tranitional
